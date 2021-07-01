@@ -7,7 +7,7 @@ Sometimes it is useful to translate IP addresses to Country. If you want to do t
 
 ```python
 >>> import pygeoip
->>> gi = pygeoip.GeoIP('GeoIP.dat')
+>>> gi = pygeoip.GeoIP('maxmind4country.dat')
 >>> gi.country_name_by_addr('64.233.161.99')
 'United States'
 ```
